@@ -1,5 +1,5 @@
 <div align="center">
-<h1>VIP - Hockey Tracking Dataset 🏒 </h1>
+<h1>Hockey Tracking Dataset - 2 🏒 </h1>
 </div>
 
 
@@ -8,7 +8,7 @@ This repository contains a curated public dataset for player tracking in ice Hoc
 The associated publication is: 
 [VIP-HTD : A Public Benchmark for Multi-Player Tracking in Ice Hockey](https://www.researchgate.net/publication/378204310_VIP-HTD_A_Public_Benchmark_for_Multi-Player_Tracking_in_Ice_Hockey)
 ### Abstract: 
-Multi-Object Tracking (MOT) is the combined task of localization andassociation of subjects across a temporal sequence. Unlike the pop-ular pedestrian tracking paradigms, monocular tracking of ice hockeyplayers from broadcast feeds presents a variety of challenges dueto rapid non-linear motions, occlusions, blurs, and pan-tilt-zoom ef-fects. To tackle these issues, there neither exists public datasets norbenchmarks trained on public datasets to date. To this end, we pro-pose: (a) VIP-HTD - a public ice hockey tracking dataset, processed& curated from existing work, and (b) a public benchmark for multi-player tracking based on it. Further, we also present our observationsprocessing this dataset and discuss the two key metrics (IDF1 scoreand ID switches) required for optimal tracking evaluations. With thiswork, we take a step towards creating a uniﬁed public benchmark forevaluating multi-player tracking in hockey.
+Multi-Object Tracking (MOT) is the combined task of localization andassociation of subjects across a temporal sequence. Unlike the pop-ular pedestrian tracking paradigms, monocular tracking of ice hockeyplayers from broadcast feeds presents a variety of challenges dueto rapid non-linear motions, occlusions, blurs, and pan-tilt-zoom ef-fects. To tackle these issues, there neither exists public datasets norbenchmarks trained on public datasets to date. To this end, we propose: (a) HTD -2 (also called VIP-HTD) --  an open-sourced ice hockey tracking dataset, processed & curated from existing work (MHPTD), and (b) a public benchmark for multi-player tracking based on it. Further, we also present our observationsprocessing this dataset and discuss the two key metrics (IDF1 scoreand ID switches) required for optimal tracking evaluations. With thiswork, we take a step towards creating a uniﬁed public benchmark forevaluating multi-player tracking in hockey.
 
 ### Contents 
 
@@ -74,10 +74,8 @@ The utilities script contains basic pre-processing functions written in python t
 
 
 ### Acknowledgement:
-We're thankful to the work done by Zhao et al. [MHPTD](https://github.com/grant81/hockeyTrackingDataset) for open-sourcing the base version of this dataset. 
-
-
-
+We're thankful to the work done by Zhao et al. [MHPTD](https://github.com/grant81/hockeyTrackingDataset) for open-sourcing the first version of this dataset. Our work is built after relevant modifications and error corrections, inheriting the
+same licensing (GPL-3.0) and following any and all restrictions described in it. Our only hope with this work is to encourage ice hockey MOT research and make it publicly accessible. 
 
 ### Citation: 
 If you use this work, please cite: 
